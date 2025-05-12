@@ -9,7 +9,7 @@ form.addEventListener("submit", function (e) {
   const gekozenwinkel = winkelSelectBox.value
   if (text !== "") {
     const li = document.createElement("li");
-    li.textContent = `${text} (${winkels.naam})`;
+    li.textContent = `${text} (${gekozenwinkel})`;
     li.addEventListener("click", function () {
       li.classList.toggle("completed");
     });
