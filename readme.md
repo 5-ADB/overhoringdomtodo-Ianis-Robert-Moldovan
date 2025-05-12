@@ -5,9 +5,9 @@
 
 ## opgave:
 
-1. zorg ervoor dat er reeds een aantal todo's aanwezig zijn (niet afgewerkt)
+1. zorg ervoor dat er reeds een aantal todo's aanwezig zijn (niet afgewerkt) (opgelost)
 
-2. voeg aan het formulier een dropdown toe met een winkellijst
+2. voeg aan het formulier een dropdown toe met een winkellijst (opgelost)
 
 3. zorg dat de winkel ook bij de todo staat.
 
