@@ -23,20 +23,16 @@ form.addEventListener("submit", function (e) {
 const winkelenFruit = document.createElement("li")
 const lerenFrans = document.createElement("li")
 const fitnessGaan = document.createElement("li")
-const geenWinkel = document.createElement("li")
 
 winkelenFruit.textContent = "Winkelen voor Fruit"
 lerenFrans.textContent = "Leren voor toets frans"
 fitnessGaan.textContent = "Naar de fitness gaan"
-geenWinkel.textContent = "Geen Winkel"
 
 winkelenFruit.addEventListener("click", function () {
   winkelenFruit.classList.toggle("completed")
 })
 
-lerenFrans.addEventListener("click", function () {
-  lerenFrans.classList.toggle("completed")
-})
+lerenFrans.classList.toggle("completed")
 
 fitnessGaan.classList.toggle("completed")
 
@@ -47,17 +43,25 @@ list.appendChild(fitnessGaan)
 // 2) dropdown met winkels
 
 const winkels = [
-  { id: 1,
+  { 
+    id: 1,
     naam: "Lidl"
   }, 
-  { id: 2,
+  { 
+    id: 2,
     naam: "Aldi"
   },
-  { id: 3,
+  { 
+    id: 3,
     naam: "Alberthijn"
   },
-  { id: 4,
+  { 
+    id: 4,
     naam: "Carrefour"
+  },
+  { 
+    id: 5,
+    naam: "geen winkel"
   }
 ]
 
