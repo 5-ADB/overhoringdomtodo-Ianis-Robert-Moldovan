@@ -1,13 +1,15 @@
 const form = document.getElementById("todo-form");
 const input = document.getElementById("todo-input");
 const list = document.getElementById("todo-list");
+const toevoegenBtn = document.getElementById("toevoegenBtn")
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   const text = input.value.trim();
+  const gekozenwinkel = winkelSelectBox.value
   if (text !== "") {
     const li = document.createElement("li");
-    li.textContent = text;
+    li.textContent = `${text} (${winkels.naam})`;
     li.addEventListener("click", function () {
       li.classList.toggle("completed");
     });
@@ -15,16 +17,18 @@ form.addEventListener("submit", function (e) {
     input.value = "";
   }
 });
-
+ 
 // 1) reeds aantal taken die niet afgewerkt zijn
 
 const winkelenFruit = document.createElement("li")
 const lerenFrans = document.createElement("li")
 const fitnessGaan = document.createElement("li")
+const geenWinkel = document.createElement("li")
 
 winkelenFruit.textContent = "Winkelen voor Fruit"
 lerenFrans.textContent = "Leren voor toets frans"
 fitnessGaan.textContent = "Naar de fitness gaan"
+geenWinkel.textContent = "Geen Winkel"
 
 winkelenFruit.addEventListener("click", function () {
   winkelenFruit.classList.toggle("completed")
@@ -67,7 +71,3 @@ winkels.forEach((winkel) => {
   winkelSelectBox.appendChild(optieWinkel)
 })
 form.appendChild(winkelSelectBox)
-
-// 3) winkel moet bij de todo staan
-
-// const winkelToDo = 
