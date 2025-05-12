@@ -15,7 +15,7 @@ form.addEventListener("submit", function (e) {
     });
     list.appendChild(li);
     input.value = "";
-  }
+  } 
 });
  
 // 1) reeds aantal taken die niet afgewerkt zijn

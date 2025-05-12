@@ -9,9 +9,9 @@
 
 2. voeg aan het formulier een dropdown toe met een winkellijst (opgelost)
 
-3. zorg dat de winkel ook bij de todo staat.
+3. zorg dat de winkel ook bij de todo staat. (index komt er op)
 
 4. zorg voor een geschikt objectmodel voor todo's
    (denk aan titel - omschrijving - winkel - afgewerkt)
 
-5. zorg ervoor dat je ter uitbreiding op vraag 1 ook items kan staan hebben die reeds zijn afgewerkt.
+5. zorg ervoor dat je ter uitbreiding op vraag 1 ook items kan staan hebben die reeds zijn afgewerkt. (opgelost)
